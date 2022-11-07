@@ -9,10 +9,11 @@ description = "Core library for Verifiable Credentials and Decentralized Identif
 repository = "https://github.com/spruceid/oidc4vci-rs/"
 
 [dependencies]
-ssi = { git = "https://github.com/spruceid/ssi" }
-did-method-key = { git = "https://github.com/spruceid/ssi" }
-did-jwk = { git = "https://github.com/spruceid/ssi" }
-did-web = { git = "https://github.com/spruceid/ssi" }
+ssi = { git = "https://github.com/spruceid/ssi", branch = "feat/plugfest2" }
+did-method-key = { git = "https://github.com/spruceid/ssi", branch = "feat/plugfest2" }
+did-jwk = { git = "https://github.com/spruceid/ssi", branch = "feat/plugfest2" }
+did-web = { git = "https://github.com/spruceid/ssi", branch = "feat/plugfest2" }
+
 serde = { version = "1.0", features = ["derive"] }
 serde_json = { version = "1.0", features = ["preserve_order"] }
 percent-encoding = { version = "2.1" }
